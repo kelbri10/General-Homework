@@ -1,0 +1,44 @@
+
+*{ 
+    margin: 0 auto; 
+}
+header{ 
+    background-color: #d5e2ee;
+
+    display: flex; 
+    align-items: center; 
+    justify-content: right;
+}
+
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder; 
+    font-size: 14px; 
+}
+
+h1{ 
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+img{
+    margin:0; 
+    max-width: 50%; 
+    height: auto;
+    /* object-fit: cover; */
+}
+
+@media only screen and (max-width: 375px){ 
+    header{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: flex-end;
+    }
+
+    img{ 
+        max-width: 100%;
+        height: auto;  
+    }
+} 
